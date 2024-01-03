@@ -36,7 +36,8 @@ For milestone 4 I have:
 - I have dropped the AddressLine1 column from the Person.Address table using Table Designer in SMSS. This would be a pretty massive blunder in industry to wipe customer addresses without a backup plan. How I did this is shown in the pictures below.
 
 ![](delete_column.png)
-![](deleted.png)
+
+I pressed the delete column button to remove the column
 
 - I restored the database using Azure's database restore button. This created a new production database where the critical data loss has been reversed.
 - I created a geo-replica in the France Central server (Primary is UK south)
